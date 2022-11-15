@@ -1,0 +1,25 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#(c) SnapEDA 2016 (snapeda.com)
+#This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA) with Design Exception 1.0
+#
+# OKR-T/10-W12-C
+#
+DEF OKR-T/10-W12-C PS 0 40 Y Y 1 L N
+F0 "PS" -601 431 50 H V L BNN
+F1 "OKR-T/10-W12-C" -601 -501 50 H V L BNN
+F2 "CONV_OKR-T/10-W12-C" 0 0 50 H I L BNN
+F3 "" 0 0 50 H I L BNN
+F4 "MuRata" 0 0 50 H I L BNN "MANUFACTURER"
+F5 "Manufacturer Recommendation" 0 0 50 H I L BNN "STANDARD"
+DRAW
+S -600 -400 600 400 0 0 6 f
+X REMOTE_ON/OFF_CTRL 1 -800 0 200 R 40 40 0 0 I 
+X +VIN 2 -800 200 200 R 40 40 0 0 I 
+X GND 3 800 -300 200 L 40 40 0 0 W 
+X +VOUT 4 800 200 200 L 40 40 0 0 O 
+X OUTPUT_TRIM 5 -800 -100 200 R 40 40 0 0 I 
+ENDDRAW
+ENDDEF
+#
+# End Library
